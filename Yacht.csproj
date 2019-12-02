@@ -1,0 +1,128 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{E254D29D-D8E0-4D67-B978-C5645D483FF6}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Yacht</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\FETCH_HEAD" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\logs\refs\remotes\origin\master" />
+    <None Include=".git\logs\refs\stash" />
+    <None Include=".git\objects\02\13f55de809852fa9a9d69ba9cc3a38f1982241" />
+    <None Include=".git\objects\0c\8b9f15d0c4bce6bb054f0344aa400162ed9ea3" />
+    <None Include=".git\objects\28\8b05e79072b8e31ac3e0177e6acb9538502769" />
+    <None Include=".git\objects\2a\6dd7b9c58c215b602a7e11fdef19b832f83d0d" />
+    <None Include=".git\objects\3d\927eb3d2a83dfde51723fc5dfa69fcbe8a4986" />
+    <None Include=".git\objects\4d\58e990932820dc0fb28ecc282f3c9b55916a0f" />
+    <None Include=".git\objects\59\00f960183dc83d8a53987212132d434c07ed7d" />
+    <None Include=".git\objects\6f\26b95b91cce911ae5c092b5daca5c0e283a80d" />
+    <None Include=".git\objects\79\4f742b8f48b9a4e69058a55b4e9b385c749716" />
+    <None Include=".git\objects\86\2c4ef91fd7b369be269a8b456ea32759200b51" />
+    <None Include=".git\objects\88\1657cbf96b23c549230df02b406584f57eeb4e" />
+    <None Include=".git\objects\96\6d75caaa5970cd5891883f41708b3b2f5c3e83" />
+    <None Include=".git\objects\98\0a896e04a971f07687b9fab898450c907e37de" />
+    <None Include=".git\objects\9a\5e9c053c466c53c764af8684bfc05cc5ab5573" />
+    <None Include=".git\objects\9c\93acff9fffbad70a21e8fec5f29673078d6ff7" />
+    <None Include=".git\objects\a9\ebed5c74c402ec2f09f2564edacae600492a36" />
+    <None Include=".git\objects\d0\50e2f26d9f445aa1725b76b8540a4ec5fd500c" />
+    <None Include=".git\objects\d7\83d8da965c9b9c0c3eb2e1e6b35b0efd65bc73" />
+    <None Include=".git\objects\de\eeee3fe2b69a494e3ab0be8b2c1325786fa19f" />
+    <None Include=".git\objects\e0\3f09a6e11f3c1cb984a4df48df9aa9932980be" />
+    <None Include=".git\objects\fb\f451b96ed9fd9206f6665024e7dcded42a0c83" />
+    <None Include=".git\objects\pack\pack-fd1382f34f3b68c96da1285159dcf10103fa6c62.idx" />
+    <None Include=".git\objects\pack\pack-fd1382f34f3b68c96da1285159dcf10103fa6c62.pack" />
+    <None Include=".git\ORIG_HEAD" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".git\refs\remotes\origin\master" />
+    <None Include=".git\refs\stash" />
+    <None Include=".vscode\launch.json" />
+    <None Include=".vscode\tasks.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include=".vs\yachtclub\v15\.suo" />
+    <None Include="memberregistry.json" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Backup\yachtclub.csproj" />
+    <Content Include="UpgradeLog.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\controller\User.cs" />
+    <Compile Include="src\helpers\Choice.cs" />
+    <Compile Include="src\model\Boat.cs" />
+    <Compile Include="src\model\Member.cs" />
+    <Compile Include="src\model\YachtClub.cs" />
+    <Compile Include="src\Program.cs" />
+    <Compile Include="src\view\UI.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include=".vs\Yacht\v15\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
